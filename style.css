@@ -46,3 +46,11 @@ button:hover {
     background: #b2dfdb;
     border-radius: 8px;
 }
+
+.site-title {
+    color: #97f5ff; /* bright orange — change this to any hex or named color */
+    font-family: 'Poppins', sans-serif; /* You can use any font here */
+    font-size: 3rem;
+    text-align: center;
+  }
+   
