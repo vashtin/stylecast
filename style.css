@@ -48,11 +48,17 @@ button:hover {
 }
 
 .site-title {
-    color: #12087d; /* bright orange — change this to any hex or named color */
+    color: #22be37; /* bright orange — change this to any hex or named color */
     font-family: Helvetica ; /* You can use any font here */
     font-style: italic;
     font-size: 3rem;
     text-align: center;
   }
    
-   
+  .descr {
+    color: #d44c9a; /* bright orange — change this to any hex or named color */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* You can use any font here */
+    font-style: italic;
+    font-size: 2rem;
+    text-align: center;
+  }
