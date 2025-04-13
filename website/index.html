@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" href="favicon.ico">
+
+</head>
+<body>
+
+    <div class="container">
+        <h1 class="site-title">StyleCast <br> Outfits Based on Your Weather</h1>
+        <input type="text" id="city" placeholder="Enter City"> <!-- lets user enter city name-->
+        <button onclick="getWeather()">Get Weather</button> <!-- triggers the getWeather() function hwen clicked-->
+
+        <div class="weather-card"> <!-- here the weather details and outfit recommendation are displayede-->
+            <h2 id="city-name"></h2>
+            <p id="temperature"></p>
+            <p id="condition"></p>
+            <h3>Outfit Recommendation:</h3>
+            <p id="recommendation"></p>
+        </div>
+    </div>
+    <script src="script.js" defer></script>  <!-- links to javascript file-->
+    <link rel="stylesheet" href="style.css">
+    
+</body>
+</html>
